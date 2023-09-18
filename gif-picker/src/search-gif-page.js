@@ -2,6 +2,7 @@ const APIKEY = '&api_key=8lNJqF3l3dla9Dg0N8sOlAuhCWYOXohr';
 const LINK = 'https://api.giphy.com/v1/gifs/search?q=';
 
 export function loadSearchPage(container) {
+    container.innerHTML = '';
     const searchTitle = document.createElement('h1');
     const searchContainer = document.createElement('div');
     const searchForm = document.createElement('form');
